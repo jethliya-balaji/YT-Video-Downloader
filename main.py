@@ -16,4 +16,4 @@ while True:
             print("\n------------------------------------\n\nVideo Downloaded Successfully !! ")    
     elif videoOrAudio == "2":
         videoStreams.filter(subtype='mp4',only_audio=True)[0].download()
-        print("\n------------------------------------\n\Audio Downloaded Successfully !! ")    
+        print("\n------------------------------------\n\nAudio Downloaded Successfully !! ")    
